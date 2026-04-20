@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ecommerce-playwright-testing
+  description: A testing suite for the ecommerce platform using Playwright to ensure robust and reliable end-to-end testing.
+  annotations:
+    github.com/project-slug: nmallela32/ecommerce-playwright-testing
+    jira/project-key: SCRUM
+    jira/label: backstage-component:ecommerce-playwright-testing
+spec:
+  type: library
+  owner: ICS
+  lifecycle: experimental
